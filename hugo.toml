@@ -18,8 +18,8 @@ theme = 'vitae'
 # Social Media Profile Configuration
 [[params.social]]
   name = "github"
-  url = "https://github.com"
+  url = "https://github.com/PrateeKhened/"
 
 [[params.social]]
   name = "linkedin"
-  url = "https://linkedin.com"
+  url = "https://www.linkedin.com/in/prateekkhened/"
