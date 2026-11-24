@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir='ltr'>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.170.1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" media="screen" href="/blog/css/normalize.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/blog/css/main.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/blog/css/all.css" />
+
+<script defer src="/blog/js/jalali.js"  crossorigin="anonymous"></script>
+
+
+<link rel="alternate" type="application/rss+xml" href="https://PrateeKhened.github.io/blog/index.xml" title="">
+
+
+
+
+<meta property="og:url" content="https://PrateeKhened.github.io/blog/">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="website">
+
+	<meta name="twitter:card" content="summary">
+
+
+	<meta itemprop="datePublished" content="2026-11-24T00:00:00+00:00">
+	<meta itemprop="dateModified" content="2026-11-24T00:00:00+00:00">
+</head>
+<script defer>
+
+
+const persianRegex = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\u200B\u200D\u2060\u0020]/g;
+
+document.addEventListener('DOMContentLoaded', function() {
+  const elements = document.querySelectorAll(`
+    .markdown p,
+    .markdown h1,
+    .markdown h2,
+    .markdown h3,
+    .markdown h4,
+    .markdown h5,
+    .markdown h6,
+    .markdown li,
+    .markdown blockquote,
+    .markdown dd,
+    .markdown dt,
+    .markdown td,
+    .markdown th,
+    pre,
+    .post-header
+  `);
+
+
+  elements.forEach(el => {
+    if (!el.textContent) {
+      return;
+    }
+    const isFirstPersian = el.textContent[0].match(persianRegex) !== null;
+    const persianNumberOfLetterMatches = Array.from(el.textContent.matchAll(persianRegex)).length * (isFirstPersian ? 1.2 : 1.0);
+    const hasPersian = persianNumberOfLetterMatches >= (el.textContent.length / 2.0);
+
+    el.style.direction = hasPersian ? 'rtl' : 'ltr';
+    el.style.textAlign = hasPersian ? 'right' : 'left';
+
+    if (el.tagName.match(/^H[1-6]$/)) {
+      el.style.marginRight = hasPersian ? '1rem' : '-1';
+      el.style.marginLeft = hasPersian ? '0' : '1rem';
+    }
+  });
+});
+</script>
+<body>
+<header>
+<div id="title-avatar">
+<div id="titletext">
+<h1 id="titleonly"><a href="https://PrateeKhened.github.io/blog/"></a></h1>
+</div>
+</div>
+<div id="title-social">
+<div id="social">
+<nav><ul>
+<li><button id="dark-mode" aria-label='Switch dark/light mode'><span title='Switch dark/light mode' class="icons fas fa-moon" aria-hidden="true"></span></button></li>
+</ul></nav>
+</div>
+</div>
+</header>
+<main>
+
+<div class="recent-posts">
+<div class="posts">
+<div class="post">
+<div class="post-header">
+<div class="meta">
+<div class="date" data-date='2026-11-24'>
+<span class="day">24</span>
+<span class="rest">Nov 2026</span>
+</div>
+</div>
+<div class="matter">
+<article>
+<h3 class="title small"><a href="/blog/posts/posts/prateek-khened/">Prateek Khened</a></h3>
+<p class="post-meta">
+<span class="post-meta">
+      
+</span>
+
+</p>
+<p class="description">IDK, WHO YOU ARE.
+</p>
+</article>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</main><script src="/blog/js/dark-mode.js"></script>
+
+</body>
+</html>

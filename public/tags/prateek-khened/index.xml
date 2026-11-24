@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+    <title>
+      
+        
+          Prateek Khened on
+        
+        
+      
+    </title>
+		<link>https://PrateeKhened.github.io/blog/tags/prateek-khened/</link>
+    <description>
+      Recent content
+      
+        
+          in Prateek Khened
+        
+      
+      on 
+      PrateeKhened.github.io
+    </description>
+    
+    
+
+    <generator>Hugo -- gohugo.io</generator>
+    
+		  <language>en</language>
+    
+    
+    
+      <lastBuildDate>
+      Tue, 24 Nov 2026 00:00:00 +0000
+      </lastBuildDate>
+    
+		  <atom:link href="https://PrateeKhened.github.io/blog/tags/prateek-khened/index.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Prateek Khened</title>
+			<link>https://PrateeKhened.github.io/blog/posts/posts/prateek-khened/</link>
+			<pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+			<guid>https://PrateeKhened.github.io/blog/posts/posts/prateek-khened/</guid>
+			<description>
+			      IDK, WHO YOU ARE.
+
+			</description>
+		</item>
+	</channel>
+</rss>
