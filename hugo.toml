@@ -3,6 +3,28 @@
 baseURL = 'https://PrateeKhened.github.io/blog/'
 theme = 'vitae'
 
+[params]
+  avatar = "https://avatars.githubusercontent.com/u/191376339?s=400&u=9d306fd599a09e957238df86199663a3fa71e1be&v=4"     
+  author = "Prateek Khened"
+  description = "A short bio sentence about you that appears on search engines." #
+  keywords = ["blog", "tech", "obsidian"] #
+  darkmode = true                  # Enables dark mode as the default layout style
+
+[params.homepage]
+  homepage = true                 # Enable a structured bio/intro homepage layout instead of a plain post list
+  subtitle = "Software Developer & Blogger"
+  showSocial = true               # Displays your configured social media profile icons
+
+# Social Media Profile Configuration (Appears on your main page)
+[[params.social]]
+  name = "github"
+  url = "https://github.com"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://linkedin.com"
+
+
 name = "Vitae"
 license = "GPL-3.0-or-later"
 licenselink = "https://codeberg.org/farooqkz/hugo-vitae/src/branch/main/COPYING"
